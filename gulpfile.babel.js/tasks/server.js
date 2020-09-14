@@ -59,11 +59,11 @@ export function browserSync () {
   }
 
   // middleware
-	if (serverConfig.middlewareOptions){
-    serverConfig.browserSync.middleware.push(
-  		proxyMiddleware(serverConfig.browserSync.apiServer.context, serverConfig.browserSync.apiServer.options)
-    );
-  }
+	if (serverConfig.middlewareOptions) {
+		serverConfig.browserSync.options.middleware.push(
+			proxyMiddleware(serverConfig.middlewareOptions.context, serverConfig.middlewareOptions.options)
+		);
+	}
 
   return $browserSync(serverConfig.browserSync.options);
 }
