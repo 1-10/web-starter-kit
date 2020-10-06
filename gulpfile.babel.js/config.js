@@ -127,12 +127,17 @@ config.webpack = {
 			// )
 		],
 		optimization: {
-      minimize: true,
-      minimizer: [
-        new TerserPlugin({
-          extractComments: false,
-        })
-      ],
+			minimize: true,
+			minimizer: [
+				new TerserPlugin({
+					extractComments: false,
+					terserOptions: {
+						compress: {
+								drop_console: !config.isDev,
+							},
+						},
+				})
+			],
 		}
 	}
 }
