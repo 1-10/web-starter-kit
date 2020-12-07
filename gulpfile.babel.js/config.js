@@ -170,9 +170,10 @@ config.server = {
     `${config.dest}assets/css/**/*.css`
   ],
   // middlewareOptions: {
-  //   context: "@api/",
+  //   context: "/api",
   //   options: {
-  //     target: "http://www.example.org"
+	// 		target: "http://www.example.org",
+	// 		changeOrigin: true
   //   }
   // },
 	connectPhp: {
