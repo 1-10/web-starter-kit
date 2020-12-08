@@ -6,8 +6,8 @@
 
 ### バージョン
 ```
-node: 12.18.0
-npm: 6.9.0
+node: 14.15.1
+npm: 6.14.8
 gulp: 4.0.2
 webpack: 4.32.2
 ```
@@ -110,3 +110,7 @@ Browser: Chrome[最新版]
 os: iPadOS 13以降
 Browser: Safari [最新版]
 ```
+
+##### 参考
+- <a href="https://gs.statcounter.com/" target="_blank">statcounter</a>
+- <a href="http://smatabinfo.jp/" target="_blank">smatab</a>

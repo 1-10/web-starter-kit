@@ -1,6 +1,7 @@
 
-# アップデート
-- <a href="https://nodejs.org/ja/">Node.jsバージョンアップ</a> v12.18.0(安定版)
+# 2020 アップデート
+- <a href="https://nodejs.org/ja/">Node.jsバージョンアップ</a> v14.15.1(安定版)
+- npm バージョンアップ 6.14.8
 - README.md <a href="https://github.com/1-10/web-starter-kit/tree/v2020#%E3%83%AC%E3%82%AE%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3">レギュレーションテンプレ追加</a>（案件単位で調整してください）
 - uglifyjs-webpack-plugin非推奨のため、<a href="https://webpack.js.org/plugins/terser-webpack-plugin/">terser-webpack-plugin</a>に変更
 - issues3: <a href="https://github.com/1-10/web-starter-kit/issues/3">gulp-connect-php修正対応</a>
